@@ -5,9 +5,9 @@ This script aims at finding where is a better place to rent a house in Melbourne
 How to draw the map:
 ---
 I used gmplot which is based on Google Map, and is very easy to use. 
-I drew circles to mark a infrastructure with a certain radius. Different color means different kind of infrastructure.
-Blue = Supermarkets (Woolworths & Coles)
-Black = Banks (CBA & ANZ)
+I drew circles to mark a infrastructure with a certain radius. Different color means different kind of infrastructure.\
+Blue = Supermarkets (Woolworths & Coles)\
+Black = Banks (CBA & ANZ)\
 Red = GPs
 
 The inner deeper area means a shorter distance (200m), the outer lighter area means a longer distance (1000m). The middle area means 500m.
