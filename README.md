@@ -15,6 +15,7 @@ The inner deeper area means a shorter distance (200m), the outer lighter area me
 How to get the data:
 ---
 Just use Google API service. I used GooglePlaces library to get the coordinates of infrastructures. You will need to apply for Google API service to get an api_key if you would like to use GooglePlaces. There is a 12 months free trial for this service.
+https://blog.csdn.net/dongyouyuan/article/details/76618442 This is an article about how to apply and use Google Map API. I followed parts of its methods.
 
 We used text_search function in GooglePlaces to search the key words. However, there is a 20 results limit in a page, so I used pagetoken to get more results, but the upper limit is 60 results.
 
